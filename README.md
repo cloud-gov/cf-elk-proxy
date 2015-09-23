@@ -71,7 +71,7 @@ Access to Kibana requires the creation of a service proxy. Use [make-proxy](http
 	./make-proxy.sh \
 	  -s MY_ELK \
 	  -n MY_ELK-kibana \
-	  -d 18f.gov \
+	  -d DOMAIN \
 	  -g "./nginx-auth"
 	
 **output**
@@ -110,7 +110,7 @@ Now your ELK service instance is accessible through an nginx service proxy using
 
 Launch a browser and head to the provided URL, logging in with the provided username and password.
 
-1. Kibana requires a few moments to load.
+Kibana requires a few moments to load.
 
 ![Selecting an index pattern is the first step in accessing a new Kibana instance.](images/kibana_loading-450.png "Selecting an index pattern.")
 
@@ -148,7 +148,7 @@ Creating the Elasticsearch / Marvel proxy follows much the same process as the K
 ```
 ./make-proxy.sh \
   -s MY_ELK \
-  -d 18f.gov \
+  -d DOMAIN \
   -z "9200/tcp" \
   -p
 ```
