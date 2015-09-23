@@ -174,8 +174,8 @@ Creating the Elasticsearch / Marvel proxy follows much the same process as the K
 	Getting app environment for MY_ELK-proxy.
 	! Proxy vars don't match.
 	+ Injecting service credentials into MY_ELK-proxy.
-	  + Binding MY_ELK-proxy to PROXY_HOST in 10.10.3.137.
-	  + Binding MY_ELK-proxy to PROXY_PORT in 32802.
+	  + Binding MY_ELK-proxy to PROXY_HOST in 10.10.10.1.
+	  + Binding MY_ELK-proxy to PROXY_PORT in 12345.
 	Checking status for MY_ELK-proxy.
 	- Finishing start of MY_ELK-proxy.
 	  - Getting credentials for MY_ELK-proxy.
